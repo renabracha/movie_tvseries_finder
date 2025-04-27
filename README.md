@@ -56,5 +56,5 @@ This keeps your project dependencies isolated:
 This will start a local web server and open the application in your browser. Press the Analyse button to view the results. 
 
 ## Web app in action
-![Alt text for screen reader](https://github.com/renabracha/movie_tvseries_finder/blob/main/sceenshot_1.JPG?raw=true)
-![Alt text for screen reader](https://github.com/renabracha/movie_tvseries_finder/blob/main/sceenshot_2.JPG?raw=true)
+![Alt text for screen reader](https://github.com/renabracha/movie_tvseries_finder/blob/main/screenshot_1.JPG?raw=true)
+![Alt text for screen reader](https://github.com/renabracha/movie_tvseries_finder/blob/main/screenshot_2.JPG?raw=true)
