@@ -44,11 +44,7 @@ This keeps your project dependencies isolated:
 4. Install the required dependencies.<br>
   `pip install -r requirements.txt`
 
-### Step 4. Install the required packages. 
-1. In the Command Prompt window, type:<br>
-	`pip install python-dotenv groq langchain langchain_groq streamlit`
-
-### Step 5. Run the script. 
+### Step 4. Run the script. 
 1. In the Command Prompt window, run the Streamlit application. Type:<br>
 	`streamlit run movie_tvseries_finder.py`
 <br>
