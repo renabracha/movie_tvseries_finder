@@ -14,7 +14,11 @@ The application follows the sequence below:
 3. Search in the OMDB database by the title and content type to obtain the IMDb ID.
 4. Get the movie/TV series details using the IMDb ID. 
 
-# Installation
+## Development Notes
+* This project demonstrates the power of large language models (LLMs) to extract meaningful, searchable keywords from vague or loosely worded natural language descriptions of movies and films.
+* By this project, I felt comfortable with pulling live data using an API key. 
+
+## Installation
 To run movie_tvseries_finder.py, do the following:
 
 ### Step 1. Place the files in a folder. 
