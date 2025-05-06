@@ -6,17 +6,19 @@ I would like to thank the following individuals and organisations that made this
 * OMDB API for allowing me to obtain information about films and TV series using their API free of charge.
 
 ## Abstract
-I often remember the basic plot for many films and TV series or which actors starred in them, but find it difficult to recall their titles. The program takes a vague description of a movies or a TV series and suggests three possibilities, all only with prompts. 
+I often remember the basic plot of a movie or TV series - or which actors starred in it — but struggle to recall the title. This program takes a vague description and returns three possible matches, using only prompt-based logic without complex backend logic or search indexing.
+
 <br>
-The application follows the sequence below:
-1. Ask for the description of a film or a TV series from the user, no matter how vague. 
-2. Analyze the description and list possible titles, actors, genres, and content type (whether it is a movie or a TV series).
-3. Search in the OMDB database by the title and content type to obtain the IMDb ID.
-4. Get the movie/TV series details using the IMDb ID. 
+
+The application follows this sequence:
+1. Accept a vague description of a movie or TV series from the user.
+2. Use a prompt to extract likely titles, actors, genres, and the content type (movie or TV series).
+3. Query the OMDb database using the predicted title and content type to retrieve the IMDb ID.
+4. Fetch the full details of the matched titles using the IMDb ID.
 
 ## Development Notes
-* This project demonstrates the power of large language models (LLMs) to extract meaningful, searchable keywords from vague or loosely worded natural language descriptions of movies and films.
-* By this project, I felt comfortable with pulling live data using an API key. 
+* This project showcases how effectively large language models (LLMs) can infer structured, searchable metadata - such as titles, actors, and genres - from ambiguous natural language input.
+* It also solidified my comfort working with live APIs; in this case, querying the OMDb API using an API key.
 
 ## Installation
 To run movie_tvseries_finder.py, do the following:
